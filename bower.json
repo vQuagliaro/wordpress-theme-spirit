@@ -1,0 +1,21 @@
+{
+  "name": "my-theme",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Vincent Quagliaro <vincentq@theodo.fr>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Upstatement/timber-starter-theme",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

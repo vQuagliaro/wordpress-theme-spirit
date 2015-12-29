@@ -1,0 +1,47 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<div class="content-wrapper">
+		<article class="post-type-{{post.post_type}}" id="post-{{post.ID}}">
+			<div class="wrapper">
+				{#<img src="{{post.thumbnail.src}}" class="my-thumb-class" alt="Image for {{post.title}}" />#}
+				<div class="img-block img-block--tile img-arrow-btm " style="background-image:url({{post.thumbnail.src}})">
+					<div class="img-overlay"></div>
+					<div class="wrapper__inner">
+						<h1 class="article-h1">{{post.title}}</h1>
+					</div>
+				</div>
+			</div>
+			<div class="page-container">
+				<div class="row">
+					<div id="primary" class="col-xs-8 article-body">
+						<section class="article-content">
+							{{post.content}}
+						</section>
+					</div>
+					<div id="secondary" class="col-xs-4 sidebar">
+						<a href="http://www.catholique95.fr/index.php/le-diocese-de-pontoise/les-finances-diocesaines/353-denier-2015-je-contribue-des-aujourd-hui">
+							<img src="http://www.catholique95.com/rsp/images/bannieres/300x250denier2015.gif" alt="Denier de l'eglise 2015" width="200" height="167" border="0">
+						</a>
+						<div>
+							<h3>L’ÉVANGILE DU JOUR</h3>
+							<div class="moduletable">
+								<div style="direction: ltr; text-align: left ! important" class="feed">
+									<h4 class="feed-link">
+										<a href="http://aelf.org/1" target="_blank">
+											Evangile : «&nbsp;Les parents de Jésus le trouvèrent au milieu des docteurs de la Loi&nbsp;» (Lc 2,&nbsp;41-52)
+										</a>
+									</h4>
+									<p>
+										Chaque année, les parents de Jésus se rendaient à Jérusalempour la fête de la Pâque.&nbsp;&nbsp; &nbsp;Quand il eut douze ans,ils montèrent en pèlerinage suivant la coutume.&nbsp;&nbsp; &nbsp;À la fin de la fête, comme ils s’en retournaient,le jeune Jésus resta à...
+									</p>
+								</div>
+							</div>
+							<p><img src="http://www.catholique95.fr/images/images/icone_jc.jpg" alt="icone jc"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div><!-- /content-wrapper -->
+{% endblock %}

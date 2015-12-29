@@ -1,0 +1,218 @@
+/*
+ * Theme Name: My Theme
+ * Description: Starter Theme to use with Timber
+ * Author: Upstatement and YOU!
+*/
+
+body {
+    font-family: 'Open Sans','Helvetica Neue', Helvetica,Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: white;
+    width: 100%;
+}
+
+
+header .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header .navbar-default{
+    background: transparent;
+}
+
+nav#nav-main{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+
+nav li .dropdown-menu>li>a {
+    padding-top: .8em;
+    padding-bottom: .8em;
+    height: auto;
+}
+
+nav ul ul a {
+    height: auto;
+    border-bottom: 1px solid #98adef;
+    display: block;
+    text-align: left;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+
+#content{
+    margin-top: 62px;
+}
+
+.stat_bg_img{
+    width: 100%;
+}
+
+.custom-background{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.homepage-content{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.homepage-content .container{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 200px;
+}
+
+.navbar-header .hdr-logo-link>img {
+    vertical-align: middle;
+    width: auto;
+    height: 100%;
+    display: initial;
+}
+
+header .navbar-brand {
+    height: 60px;
+    padding: 10px 20px 10px 10px;
+
+}
+
+header .nav-link{
+    height: 60px;
+    padding: 20px 20px;
+}
+
+header .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header .navbar-default .navbar-brand,
+header .navbar-default .navbar-nav>li>a {
+    color: rgb(71, 79, 88);
+}
+
+header {
+    z-index: 20;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+header .navbar-default .navbar-nav>li.current-menu-item>a {
+    color: #4066e1;
+}
+
+
+
+
+.navbar-collapse{
+    margin-right: 4px;
+}
+
+.img-block .img-overlay {
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.img-block {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-color: #b7b7b7;
+    background-position: 50% 0%;
+    padding: 5em 1em;
+}
+
+.wrapper__inner {
+    padding: 2.4em 8em;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.img-arrow-btm:after {
+    content: '';
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: -1px;
+    width: 50%;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+}
+
+.img-arrow-btm:before {
+    content: '';
+    position: absolute;
+    z-index: 3;
+    bottom: -1px;
+    left: 0;
+    width: 50%;
+    border-bottom: 20px solid #fff;
+    border-right: 20px solid transparent;
+}
+
+@font-face {
+    font-family: 'Noticia Text';
+    src: url('fonts/noticia-text/NoticiaText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noticia Text Italic';
+    src: url('fonts/noticia-text/NoticiaText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noticia Text Bold';
+    src: url('fonts/noticia-text/NoticiaText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noticia Text Bold Italic';
+    src: url('fonts/noticia-text/NoticiaText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Noticia Text', Georgia, serif;
+    font-size: 16px;
+}
+
+.page-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 15px 30px;
+}
+
+.article-content {
+    margin-left: 15px;
+}
+
+ul.dropdown-menu {
+    padding-bottom: 0;
+}
