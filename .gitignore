@@ -1,0 +1,6 @@
+vendor
+wp-content
+
+# Dependency directory
+bower_components
+node_modules
